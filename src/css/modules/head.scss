@@ -1,0 +1,62 @@
+#head{
+    .header{
+        width: 100%;
+        height: 90px;
+        background: url('/static/img/head.jpg') no-repeat center;
+        span{
+            display: block;
+            width: 30px;
+            height: 30px;
+            background: rgba(0,0,0,0.3);
+            border-radius: 50%;
+            line-height: 30px;text-align: center;
+            position: absolute;
+            top: 10px;
+            right: 160px;
+            color: aliceblue;
+        }
+    }
+    .head-menu{
+        $menuLine : 36px;
+        background: #2e2828;
+        height: $menuLine;
+        ul{
+            line-height: $menuLine;
+            li{
+                float: left;
+                margin-left: 10px;
+            }
+        }
+    }
+    .head-logo{
+        img{width: 150px;margin: 20px 10px;}
+    }
+    .header-foot{
+        height: 70px;
+        ul{
+            width: 500px;
+            height: 70px;
+            line-height: 70px;
+            li{float: left;
+                margin-left: 20px;
+                a{
+                    color: #000;
+                }
+            }
+        }
+        .search{
+            width: 200px;
+            height: 30px;
+            background: gainsboro;
+            border-radius: 15px;
+            margin-top: 20px;
+            line-height: 30px;
+            input{
+                height: 20px;
+                border: 0;
+                margin-left: 10px;
+                background: gainsboro;
+            }
+        }
+    }
+}
